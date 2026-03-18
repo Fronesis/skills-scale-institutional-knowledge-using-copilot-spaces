@@ -22,7 +22,7 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - Acceptance criteria:
 - Priority:
 - Estimate:
-- Owner:
+- Owner: *(Name a specific role or person. See [Roles & Personas](./octoacme-roles-and-personas.md) for role definitions.)*
 - Related docs/links:
 
 ## Sprint / Iteration Planning
@@ -40,4 +40,6 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - [ ] Backlog prioritized and estimated
 - [ ] Release timeline and milestones agreed
 - [ ] Definition of Done documented
-- [ ] Initial test plan / QA approach drafted
+- [ ] Initial test plan / QA approach drafted (owned by QA Lead)
+- [ ] Role owners named for key artifacts (see [RACI-Lite](./octoacme-roles-raci-lite.md))
+- [ ] Handoff checkpoints identified for each phase transition (see [Handoff Checklist](./octoacme-handoff-checklist.md))

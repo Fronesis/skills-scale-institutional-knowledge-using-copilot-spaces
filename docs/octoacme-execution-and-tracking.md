@@ -19,9 +19,10 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 ## Quality & Testing
 - Unit tests for new logic
 - Integration tests where applicable
-- End-to-end smoke tests for critical flows before release
-- Security scanning in CI
-- Manual QA for feature acceptance when needed
+- End-to-end smoke tests for critical flows before release (owned by **QA Lead**; coordinated with DevOps for pipeline integration)
+- Security scanning in CI (owned by **DevOps / Platform Engineer**)
+- Manual QA for feature acceptance when needed (executed by **QA / Testing**, signed off by **QA Lead**)
+- Quality gate sign-off required from QA Lead before handing off to Release Manager (see [Handoff Checklist](./octoacme-handoff-checklist.md))
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -38,3 +39,5 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] Eng → QA handoff checklist completed for each feature (see [Handoff Checklist](./octoacme-handoff-checklist.md))
+- [ ] QA Lead identified and quality gate criteria agreed
