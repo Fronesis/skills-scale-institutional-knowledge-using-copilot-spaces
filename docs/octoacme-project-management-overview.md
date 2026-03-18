@@ -14,11 +14,21 @@ Applies to all cross-functional projects that deliver product features, services
 - Psychological safety: encourage feedback and learning.
 
 ## Core Roles
+The following roles appear across OctoAcme projects. Full definitions, responsibilities, goals, and cross-role interactions are in [Roles & Personas](./octoacme-roles-and-personas.md).
+
+**Always present:**
 - Project Manager (PM): coordinates delivery, schedules, risk, communications.
 - Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
 - Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
-- Stakeholders: provide inputs and approvals.
+
+**Added based on project scope:**
+- QA Lead: owns test strategy, quality gates, and release readiness sign-off.
+- QA / Testing: executes test cases and validates features during development.
+- UX Designer: designs user flows and screens; validates usability.
+- Release Manager: manages release calendar, windows, and cross-functional coordination.
+- DevOps / Platform Engineer: maintains CI/CD pipelines, infrastructure, and deployment tooling.
+- Business Analyst: gathers and refines requirements; bridges stakeholders and delivery team.
+- Stakeholders: provide inputs and approvals. Subtypes include Internal Customer, External Partner, Executive Sponsor, and Support / Operations.
 
 ## Key Artifacts
 - Project Charter / One-pager
@@ -27,6 +37,8 @@ Applies to all cross-functional projects that deliver product features, services
 - Acceptance Criteria & Definition of Done
 - Risk Register
 - Retrospective notes and action items
+- [Handoff Checklist](./octoacme-handoff-checklist.md): cross-functional sign-offs at each phase transition
+- [RACI-Lite Ownership Map](./octoacme-roles-raci-lite.md): lightweight artifact ownership reference
 
 ## Lifecycle (high-level)
 1. Initiation: problem statement, stakeholders, high-level timeline.
